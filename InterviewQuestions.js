@@ -19,3 +19,21 @@ function multiply(a)
 console.log(multiply(2)(3)(4))
 
 
+
+// Q-2: Palindrome
+
+
+function Palinlendrom(input){
+    let result = input.split('').reverse().join('')
+      if (result===input) {
+        return true
+      }
+      else{
+      return false
+      }
+     }
+     
+let input = 'racecar';
+console.log(Palinlendrom(input))
+
+
